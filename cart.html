@@ -1,0 +1,1429 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+	<title>MoyTop - Корзина</title>
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css?ver1.0" />
+	<link rel="stylesheet" type="text/css" href="css/style.css?ver1.0" />
+	<link rel="stylesheet" type="text/css" href="css/slinky.min.css?ver1.0" />
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css?ver1.0" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox-thumbs.css?ver1.0" />
+	
+</head> 
+<body class="loaded ">
+
+
+<!-- BEGIN BODY -->
+<div class="main-wrapper">
+
+	<!-- BEGIN HEADER -->
+	<header class="m-header">
+		<div class="m-header__top">
+			<div class="container">
+				<div class="m-header__top-wrap">
+					<ul class="m-nav hidden-md">
+						<li class="m-nav__item m-nav__item--first">
+							<a href="#" class="m-nav__link">Главная страница</a>
+						</li>
+						<li class="m-nav__item">
+							<a href="#" class="m-nav__link">Новинки</a>
+						</li>
+						<li class="m-nav__item">
+							<a href="#" class="m-nav__link">Лидеры продаж</a>
+						</li>
+						<li class="m-nav__item">
+							<a href="#" class="m-nav__link">Скидки и акции</a>
+						</li>
+						<li class="m-nav__item m-dropdown">
+							<a href="#" class="m-nav__link">Приглашаем к сотрудничеству</a>
+							<ul class="m-dropdown-menu ">
+								<li class="m-dropdown-menu__item">
+									<a href="#" class="m-dropdown-menu__link">Как выбрать диван</a>
+								</li>
+								<li class="m-dropdown-menu__item m-dropdown">
+									<a href="#" class="m-dropdown-menu__link">
+										Обзоры нашей техники
+										<span class="m-dropdown-menu__right-arrow">
+											<i class="fas fa-chevron-right"></i>
+										</span>
+									</a>
+									<ul class="m-dropdown-menu ">
+										<li class="m-dropdown-menu__item">
+											<a href="#" class="m-dropdown-menu__link">Как выбрать диван</a>
+										</li>
+										<li class="m-dropdown-menu__item">
+											<a href="#" class="m-dropdown-menu__link">Обзоры нашей техники</a>
+										</li>
+										<li class="m-dropdown-menu__item">
+											<a href="#" class="m-dropdown-menu__link">10 советов по выбору новой кухни в малогабаритную новостройку</a>
+										</li>
+									</ul>
+								</li>
+								<li class="m-dropdown-menu__item">
+									<a href="#" class="m-dropdown-menu__link">10 советов по выбору новой кухни в малогабаритную новостройку</a>
+								</li>
+							</ul>
+						</li>
+						
+					</ul>
+					<ul class="m-nav m-nav--sm">
+						<li class="m-nav__item m-nav__item--first visible-md">
+							<a href="#" class="m-nav__link"><i class="icon icon-login"></i>Вход</a>
+						</li>
+						<li class="m-nav__item m-dropdown">
+							<a href="#" class="m-nav__link"><i class="fas fa-chevron-down"></i>RUB</a>
+							<ul class="m-dropdown-menu m-dropdown-menu--sm">
+								<li class="m-dropdown-menu__item">
+									<a href="#" class="m-dropdown-menu__link">USD</a>
+								</li>
+							</ul>
+						</li>
+						<li class="m-nav__item m-dropdown">
+							<a href="#" class="m-nav__link">
+								<i class="fas fa-chevron-down"></i>
+								<span class="visible-lg">RU</span>
+								<span class="hidden-lg">Русский</span>
+							</a>
+							<ul class="m-dropdown-menu m-dropdown-menu--sm">
+								<li class="m-dropdown-menu__item">
+									<a href="#" class="m-dropdown-menu__link">
+										<span class="visible-lg">EN</span>
+										<span class="hidden-lg">English</span>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="m-nav__item">
+							<a href="#" class="m-nav__link">
+								<i class="far fa-heart"></i>
+								<span class="visible-lg">(5)</span>
+								<span class="hidden-lg">В закладках <sup class="sup sup--danger">5</sup></span>
+							</a>
+						</li>
+						<li class="m-nav__item">
+							<a href="#" class="m-nav__link">
+								<i class="far fa-chart-bar"></i>
+								<span class="visible-lg">(2)</span>
+								<span class="hidden-lg">В сравнении <sup class="sup sup--danger">2</sup></span>
+							</a>
+						</li>
+						<li class="m-nav__item m-nav__item--last visible-md">
+							<a href="#" class="m-nav__link">
+								<span class="price hidden-xs">25 789 руб.</span>
+								<i class="icon icon-shopping-basket"></i>(2)
+							</a>
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+		<div class="m-header__middle">
+			<div class="container">
+				<div class="m-header__middle-wrap">
+					<div class="logo"><a href="#"><img src="img/logo.png" alt=""></a></div>
+					<div class="tab-wrap box-number">
+						<ul class="nav-tabs-number tabs">
+							<li class="nav-tabs-number__item active">
+								<a href="#tab_1" class="nav-tabs-number__link">Розничный отдел</a>
+							</li>
+							<li class="nav-tabs-number__item">
+								<a href="#tab_2" class="nav-tabs-number__link">Оптовый отдел</a>
+							</li>
+						</ul>
+						<div class="box-tab-cont">
+							<div class="tab-cont" id="tab_1">
+								<div class="number-block">
+									<ul class="number-list">
+										<li class="number-list__item">
+											<a href="tel:80297212840" class="number-list__link">
+												<span class="number-list__ab">8 (029) </span>
+												721-28-40 
+												<span class="number-list__img"><img src="img/tk.png" alt="" class="inline"></span>
+											</a>
+										</li>
+										<li class="number-list__item">
+											<a href="tel:80338901890" class="number-list__link">
+												<span class="number-list__ab">8 (033) </span>
+												890-18-90 
+												<span class="number-list__img"><img src="img/tb.png" alt="" class="inline"></span>
+											</a>
+										</li>
+										<li class="number-list__item">
+											<a href="tel:80447789901" class="number-list__link">
+												<span class="number-list__ab">8 (044) </span>
+												778-99-01 
+												<span class="number-list__img"><img src="img/tk.png" alt="" class="inline"></span>
+											</a>
+										</li>
+										<li class="number-list__item">
+											<a href="tel:80297055423" class="number-list__link">
+												<span class="number-list__ab">8 (029) </span>
+												705-54-23 
+												<span class="number-list__img"><img src="img/tb.png" alt="" class="inline"></span>
+											</a>
+										</li>
+										<li class="number-list__item hidden-xs">
+											<a href="tel:80297212840" class="number-list__link ">
+												<span class="number-list__ab">8 (029) </span>
+												721-28-40 
+												<span class="number-list__img"><img src="img/tk.png" alt="" class="inline"></span>
+											</a>
+										</li>
+									</ul>
+									<div class="timing">
+										<div class="timing__item"><span class="text-danger">Пн-Пт:</span> с 9.00 до 18.00</div>
+										<div class="timing__item"><span class="text-danger">Сб:</span> с 9.00 до 15.00</div>
+										<div class="timing__item"><span class="text-danger">Вс:</span> выходной</div>
+										<a href="#" class="link"><em>Перезвоните мне!</em></a>
+									</div>
+	
+								</div>
+							</div>
+							<div class="tab-cont hide" id="tab_2">
+								<div class="number-block">
+									<ul class="number-list">
+										<li class="number-list__item">
+											<a href="tel:80297212840" class="number-list__link">
+												<span class="number-list__ab">8 (029) </span>
+												721-28-40 
+												<span class="number-list__img"><img src="img/tk.png" alt="" class="inline"></span>
+											</a>
+										</li>
+										<li class="number-list__item">
+											<a href="tel:80338901890" class="number-list__link">
+												<span class="number-list__ab">8 (033) </span>
+												890-18-90 
+												<span class="number-list__img"><img src="img/tb.png" alt="" class="inline"></span>
+											</a>
+										</li>
+										<li class="number-list__item">
+											<a href="tel:80447789901" class="number-list__link">
+												<span class="number-list__ab">8 (044) </span>
+												778-99-01 
+												<span class="number-list__img"><img src="img/tk.png" alt="" class="inline"></span>
+											</a>
+										</li>
+	
+										
+									</ul>
+									<div class="timing">
+										<div class="timing__item"><span class="text-danger">Пн-Пт:</span> с 9.00 до 18.00</div>
+										<div class="timing__item"><span class="text-danger">Сб:</span> с 9.00 до 15.00</div>
+										<div class="timing__item"><span class="text-danger">Вс:</span> выходной</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="search hidden-md">
+						<form action="#">
+							<div class="search-wrap">
+								<div class="form-icon">
+									<input type="text" class="search__input" placeholder="Поиск — более 2055 товаров"/>
+									<span class="icon"><i class="fas fa-search"></i></span>
+								</div>
+								<div class="form-text hidden-xl">
+									Поиск по каталогу
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="woocommerce hidden-md">
+						<div class="woocommerce__item">
+							<a href="#" class="woocommerce__icon">
+								<i class="icon icon-login"></i>
+							</a>
+							<div class="woocommerce__content hidden-lg">
+								<a href="#" class="woocommerce__first-bl">Войти</a>
+								<a href="#" class="woocommerce__last-bl">Регистрация</a>
+							</div>
+						</div>
+						<div class="woocommerce__item">
+							<a href="#" class="woocommerce__icon">
+								<i class="icon icon-shopping-basket"></i>
+								<sup class="kbd ">5</sup>
+							</a>
+							<div class="woocommerce__content hidden-lg">
+								<a href="#">
+									<span class="woocommerce__first-bl">5 товаров</span>
+									<span class="woocommerce__last-bl">25 890 руб.</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="m-header__bottom">
+			<div class="container">
+				<div class="m-navbar">
+					
+					<button class="m-navbar__button open-main-menu">
+						<i class="fas fa-bars"></i>
+						<span class="m-navbar__button-text visible-md">меню</span>
+						<span class="m-navbar__button-text hidden-md">каталог</span>
+						<i class="fas fa-chevron-down hidden-md"></i>
+					</button>
+					<div class="search visible-md">
+						<form action="#">
+							<div class="form-icon">
+								<input type="text" class="search__input" placeholder="Поиск"/>
+								<span class="icon"><i class="fas fa-search"></i></span>
+							</div>
+						</form>
+					</div>
+					<ul class="m-navbar-menu hidden-md">
+						<li class="m-navbar-menu__item">
+							<a href="#" class="m-navbar-menu__link">о компании</a>
+						</li>
+						<li class="m-navbar-menu__item">
+							<a href="#" class="m-navbar-menu__link">условия доставки</a>
+						</li>
+						<li class="m-navbar-menu__item">
+							<a href="#" class="m-navbar-menu__link">Гарантии</a>
+						</li>
+						<li class="m-navbar-menu__item">
+							<a href="#" class="m-navbar-menu__link">бренды</a>
+						</li>
+						<li class="m-navbar-menu__item m-dropdown">
+							<a href="#" class="m-navbar-menu__link">
+								полезные статьи
+								<span class="sticker sticker--arrow sticker--nice-price">Выгодная цена!</span>
+							</a>
+							<ul class="m-dropdown-menu ">
+								<li class="m-dropdown-menu__item">
+									<a href="#" class="m-dropdown-menu__link">Как выбрать диван</a>
+								</li>
+								<li class="m-dropdown-menu__item m-dropdown">
+									<a href="#" class="m-dropdown-menu__link">
+										Обзоры нашей техники
+										<span class="m-dropdown-menu__right-arrow">
+											<i class="fas fa-chevron-right"></i>
+										</span>
+									</a>
+									<ul class="m-dropdown-menu ">
+										<li class="m-dropdown-menu__item">
+											<a href="#" class="m-dropdown-menu__link">Как выбрать диван</a>
+										</li>
+										<li class="m-dropdown-menu__item">
+											<a href="#" class="m-dropdown-menu__link">Обзоры нашей техники</a>
+										</li>
+										<li class="m-dropdown-menu__item">
+											<a href="#" class="m-dropdown-menu__link">10 советов по выбору новой кухни в малогабаритную новостройку</a>
+										</li>
+									</ul>
+								</li>
+								<li class="m-dropdown-menu__item">
+									<a href="#" class="m-dropdown-menu__link">10 советов по выбору новой кухни в малогабаритную новостройку</a>
+								</li>
+							</ul>
+						</li>
+						<li class="m-navbar-menu__item">
+							<a href="#" class="m-navbar-menu__link">
+								Контакты
+								<span class="sticker sticker--arrow sticker--hit">Хит!</span>
+							</a>
+						</li>
+					</ul>
+					<div class="desktop-navbar hidden-md">
+						<ul class="main-menu">
+	
+							<li class="main-menu__item">
+								<a href="#" class="main-menu__link"><span>Гипсокартонные системы <sup class="sup">98</sup></span></a>
+							</li>
+							<li class="main-menu__item">
+								<a href="#" class="main-menu__link"><span>Строительные смеси</span></a>
+							</li>
+							<li class="main-menu__item">
+								<a href="#" class="main-menu__link"><span>Штукатурные системы</span></a>
+							</li>
+							
+							<li class="main-menu__item">
+								<a href="#" class="main-menu__link"><span>Гипсокартонные системы <sup class="sup">98</sup></span></a>
+							</li>
+							<li class="main-menu__item m-dropdown">
+								<a href="#" class="main-menu__link">
+									<span class="main-menu__img">
+										<img src="img/main-menu-img1.png" alt="">
+									</span>
+									<span>Строительные смеси <sup class="sup">71</sup></span>
+									<span class="main-menu__right-arrow"><i class="fas fa-chevron-right"></i></span>
+								</a>
+								<ul class="m-dropdown-menu ">
+									<li class="m-dropdown-menu__item ">
+										<a href="#" class="m-dropdown-menu__link"><span>Смесь для гипсокартона</span></a>
+										
+									</li>
+									
+									<li class="m-dropdown-menu__item m-dropdown">
+										<a href="#" class="m-dropdown-menu__link">
+											<span>Смесь для штукатурки</span>
+											<span class="m-dropdown-menu__right-arrow"><i class="fas fa-chevron-right"></i></span>
+										</a>
+										<ul class="m-dropdown-menu ">
+											<li class="m-dropdown-menu__item">
+												<a href="#" class="m-dropdown-menu__link"><span>Смесь для гипсокартона</span></a>
+											</li>
+											
+											<li class="m-dropdown-menu__item">
+												<a href="#" class="m-dropdown-menu__link"><span>Смесь для штукатурки</span></a>
+											</li>
+											<li class="m-dropdown-menu__item">
+												<a href="#" class="m-dropdown-menu__link"><span>Смесь для стяжки</span></a>
+											</li>
+											<li class="m-dropdown-menu__item">
+												<a href="#" class="m-dropdown-menu__link"><span>Смесь для кирпича</span></a>
+											</li>
+										</ul>
+									</li>
+									<li class="m-dropdown-menu__item">
+										<a href="#" class="m-dropdown-menu__link"><span>Смесь для стяжки</span></a>
+									</li>
+									<li class="m-dropdown-menu__item">
+										<a href="#" class="m-dropdown-menu__link"><span>Смесь для кирпича</span></a>
+									</li>
+								</ul>
+							</li>
+							<li class="main-menu__item">
+								<a href="#" class="main-menu__link"><span>Гипсокартонные системы собственного производства <sup class="sup">65</sup></span></a>
+							</li>
+							<li class="main-menu__item">
+								<a href="#" class="main-menu__link">
+									<span class="main-menu__img">
+										<img src="img/main-menu-img2.png" alt="">
+									</span>
+									<span>Диваны <sup class="sup">12</sup></span>
+								</a>
+							</li>
+							<li class="main-menu__item">
+								<a href="#" class="main-menu__link"><span>Кровати и матрасы</span></a>
+							</li>
+							<li class="main-menu__item ">
+								<a href="#" class="main-menu__link "><span>Ортопедические основания </span></a>
+							</li>
+							<li class="main-menu__item ">
+								<a href="#" class="main-menu__link "><span>Лампы и светильники</span></a>
+							</li>
+							<li class="main-menu__item ">
+								<a href="#" class="main-menu__link "><span>Скидки и акции</span></a>
+							</li>
+							<li class="main-menu__item ">
+								<a href="#" class="main-menu__link "><span>Рекомендуем</span></a>
+							</li>
+							<li class="main-menu__item ">
+								<a href="#" class="main-menu__link "><i class="fas fa-bars"></i> <span>Весь каталог</span></a>
+							</li>
+						</ul>
+					</div>
+						
+				</div>
+			</div>
+		</div>	
+	</header>
+	
+	<nav class="mobile-navbar visible-md">
+		<div id="mymenu">
+			<ul class="main-menu">
+				<li class="main-menu__header">
+					<a href="#" class="main-menu__close"><i class="fas fa-chevron-left"></i> Закрыть</a>
+					<header class="title">Главная</header>
+				</li>
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__link"><span>Каталог</span> 
+					<span class="main-menu__right-arrow"><i class="fas fa-chevron-right"></i></span></a>
+					<ul class="main-menu">
+	
+						<li class="main-menu__item">
+							<a href="#" class="main-menu__link"><span>Мебель в гостиную <sup class="sup">52</sup></span></a>
+						</li>
+						<li class="main-menu__item">
+							<a href="#" class="main-menu__link"><span>Гипсокартонные системы <sup class="sup">8</sup></span></a>
+						</li>
+						<li class="main-menu__item">
+							<a href="#" class="main-menu__link"><span>Штукатурные системы <sup class="sup">670</sup></span>
+							<span class="main-menu__right-arrow"><i class="fas fa-chevron-right"></i></span>
+							</a>
+							<ul class="main-menu">
+								<li class="main-menu__item">
+									<a href="#" class="main-menu__link"><span>Штукатурные системы</span></a>
+								</li>
+								
+							</ul>
+						</li>
+						<li class="main-menu__item">
+							<a href="#" class="main-menu__link"><span>Гипсокартонные системы <sup class="sup">98</sup></span></a>
+						</li>
+						<li class="main-menu__item">
+							<a href="#" class="main-menu__link">
+								<span class="main-menu__img">
+									<img src="img/main-menu-img1.png" alt="">
+								</span>
+								<span>Строительные смеси <sup class="sup">71</sup></span>
+								<span class="main-menu__right-arrow"><i class="fas fa-chevron-right"></i></span>
+							</a>
+							<ul class="main-menu">
+								<li class="main-menu__item">
+									<a href="#" class="main-menu__link"><span>Смесь для гипсокартона </span></a>
+								</li>
+								<li class="main-menu__item">
+									<a href="#" class="main-menu__link"><span>Смесь для штукатурки</span></a>
+								</li>
+								<li class="main-menu__item">
+									<a href="#" class="main-menu__link"><span>Смесь для стяжки</span></a>
+								</li>
+								<li class="main-menu__item">
+									<a href="#" class="main-menu__link"><span>Смесь для кирпича</span></a>
+								</li>
+							</ul>
+						
+						</li>
+						<li class="main-menu__item">
+							<a href="#" class="main-menu__link"><span>Гипсокартонные системы собственного производства <sup class="sup">65</sup></span></a>
+						</li>
+						<li class="main-menu__item">
+							<a href="#" class="main-menu__link">
+								<span class="main-menu__img">
+									<img src="img/main-menu-img2.png" alt="">
+								</span>
+								<span>Диваны <sup class="sup">12</sup></span>
+							</a>
+						</li>
+						<li class="main-menu__item">
+							<a href="#" class="main-menu__link"><span>Кровати и матрасы</span></a>
+						</li>
+						<li class="main-menu__item ">
+							<a href="#" class="main-menu__link main-menu__link--white"><span>Новинки <sup class="sup sup--danger">10</sup></span></a>
+						</li>
+						<li class="main-menu__item ">
+							<a href="#" class="main-menu__link main-menu__link--white"><span>Лидеры продаж <sup class="sup sup--danger">70</sup></span></a>
+						</li>
+						<li class="main-menu__item ">
+							<a href="#" class="main-menu__link main-menu__link--white"><span>Скидки и акции <sup class="sup sup--danger">2</sup></span></a>
+						</li>
+						<li class="main-menu__item ">
+							<a href="#" class="main-menu__link main-menu__link--white"><span>Рекомендуем <sup class="sup sup--danger">6</sup></span></a>
+						</li>
+					</ul>
+				</li>
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__link"><span>О компании</span></a>
+				</li>
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__link"><span>Условия доставки</span></a>
+				</li>
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__link"><span>Гарантии</span></a>
+				</li>
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__link"><span>Бренды</span>
+						<span class="main-menu__right-arrow">
+							<i class="fas fa-chevron-right"></i>
+						</span>
+					</a>
+	
+					<ul class="main-menu">
+	
+						<li class="main-menu__item">
+							<a href="#" class="main-menu__link"><span>Бренды</span></a>
+						</li>
+	
+					</ul>
+				</li>
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__link"><span>Полезные статьи</span></a>
+				</li>
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__link"><span>Приглашаем к сотрудничеству</span></a>
+				</li>
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__link"><span>Контакты</span></a>
+				</li>
+				<li class="card-menu">
+					
+					<div class="card-menu__item">
+						<a href="#" class="card-menu__link">
+							<span class="card-menu__icon text-danger"><i class="icon icon-shopping-basket"></i></span>
+							<span>Корзина <sup class="sup sup--danger">2</sup></span>
+							<span class="price nowrap">(25 789 руб.)</span>
+						</a>
+					</div>
+					<div class="card-menu__item">
+						<a href="#" class="card-menu__link">
+							<span class="card-menu__icon"><i class="far fa-heart"></i></span>
+							<span>В закладках</span>
+						</a>
+					</div>
+					<div class="card-menu__item">
+						<a href="#" class="card-menu__link">
+							<span class="card-menu__icon"><i class="far fa-chart-bar"></i></span>
+							<span>В сравнении <sup class="sup sup--danger">5</sup></span>
+						</a>
+					</div>
+					<div class="card-menu__item">
+						<a href="#" class="card-menu__link">
+							<span class="card-menu__icon"><i class="icon icon-login"></i></span>
+							<span>Личный кабинет</span>
+						</a>
+					</div>
+					
+				</li>
+				<li class="main-menu__footer">
+	
+					<p class="copyright">&copy; 2015–2019 Moyshop.ru</p>
+					<p>Интернет-магазин по продаже бытовой техники и ноутбуков по всей России.</p>
+					
+	
+					<div class="foot-contacts">
+						<div class="foot-contacts__item">
+							<a href="tel:8298901890" class="foot-contacts__tel">8 (29) 890-18-90</a>
+						</div>
+						<div class="foot-contacts__item">
+							<a href="tel:8297212840" class="foot-contacts__tel">8 (29) 721-28-40</a>
+						</div>
+					</div>
+					<div class="timing">
+						<div class="timing__item">Пн-Пт: с 9.00 до 18.00</div>
+						<div class="timing__item">Сб: с 9.00 до 15.00</div>
+						<div class="timing__item">Вс: выходной</div>
+					</div>
+					<a href="#" class="foot-contacts__link">Контактная информация</a>
+				</li>
+	
+	
+				
+			</ul>
+			
+		</div>
+	</nav>
+	<!-- HEADER EOF   -->
+
+	<!-- BEGIN CONTENT -->
+	<main class="main">
+		<div class="container">
+			<!-- BEGIN WRAP -->
+			<div class="wrap">
+				<!-- BEGIN SIDEBAR -->
+				<div class="sidebar ">
+					
+					<ul class="main-menu">
+
+						<li class="main-menu__item">
+							<a href="#" class="main-menu__link">Гипсокартонные системы <sup class="sup">98</sup></a>
+						</li>
+						<li class="main-menu__item">
+							<a href="#" class="main-menu__link">Строительные смеси</a>
+						</li>
+						<li class="main-menu__item">
+							<a href="#" class="main-menu__link">Штукатурные системы</a>
+						</li>
+						
+						<li class="main-menu__item">
+							<a href="#" class="main-menu__link">Гипсокартонные системы <sup class="sup">98</sup></a>
+						</li>
+						<li class="main-menu__item m-dropdown">
+							<a href="#" class="main-menu__link">
+								<span class="main-menu__img">
+									<img src="img/main-menu-img1.png?ver1.0" alt="">
+								</span>
+								Строительные смеси <sup class="sup">71</sup>
+								<span class="main-menu__right-arrow"><i class="fas fa-chevron-right"></i></span>
+							</a>
+							<ul class="m-dropdown-menu ">
+								<li class="m-dropdown-menu__item ">
+									<a href="#" class="m-dropdown-menu__link">Смесь для гипсокартона</a>
+									
+								</li>
+								
+								<li class="m-dropdown-menu__item m-dropdown">
+									<a href="#" class="m-dropdown-menu__link">
+										Смесь для штукатурки
+										<span class="m-dropdown-menu__right-arrow"><i class="fas fa-chevron-right"></i></span>
+									</a>
+									<ul class="m-dropdown-menu ">
+										<li class="m-dropdown-menu__item">
+											<a href="#" class="m-dropdown-menu__link">Смесь для гипсокартона</a>
+										</li>
+										
+										<li class="m-dropdown-menu__item">
+											<a href="#" class="m-dropdown-menu__link">Смесь для штукатурки</a>
+										</li>
+										<li class="m-dropdown-menu__item">
+											<a href="#" class="m-dropdown-menu__link">Смесь для стяжки</a>
+										</li>
+										<li class="m-dropdown-menu__item">
+											<a href="#" class="m-dropdown-menu__link">Смесь для кирпича</a>
+										</li>
+									</ul>
+								</li>
+								<li class="m-dropdown-menu__item">
+									<a href="#" class="m-dropdown-menu__link">Смесь для стяжки</a>
+								</li>
+								<li class="m-dropdown-menu__item">
+									<a href="#" class="m-dropdown-menu__link">Смесь для кирпича</a>
+								</li>
+							</ul>
+						</li>
+						<li class="main-menu__item">
+							<a href="#" class="main-menu__link">Гипсокартонные системы собственного производства <sup class="sup">65</sup></a>
+						</li>
+						<li class="main-menu__item">
+							<a href="#" class="main-menu__link">
+								<span class="main-menu__img">
+									<img src="img/main-menu-img2.png?ver1.0" alt="">
+								</span>
+								Диваны <sup class="sup">12</sup>
+							</a>
+						</li>
+						<li class="main-menu__item">
+							<a href="#" class="main-menu__link">Кровати и матрасы</a>
+						</li>
+						<li class="main-menu__item ">
+							<a href="#" class="main-menu__link ">Ортопедические основания </a>
+						</li>
+						<li class="main-menu__item ">
+							<a href="#" class="main-menu__link ">Лампы и светильники</a>
+						</li>
+						<li class="main-menu__item ">
+							<a href="#" class="main-menu__link ">Скидки и акции</a>
+						</li>
+						<li class="main-menu__item ">
+							<a href="#" class="main-menu__link ">Рекомендуем</a>
+						</li>
+					</ul>
+				</div>
+				<!-- SIDEBAR EOF   -->
+
+				<!-- BEGIN CONTENT -->
+				<div class="content">
+					<div class="container">
+						<div class="center">
+							<!-- BEGIN BREADCRUMBS -->
+							<div class="breadcrumbs">
+								<ul class="crumbs-list">
+									<li class="crumbs-list__item">
+										<a href="#" class="crumbs-list__link">Главная</a>
+										<span class="crumbs-list__arrow"><i class="fas fa-chevron-right"></i></span>
+									</li>
+									<li class="crumbs-list__item">
+										<span class="crumbs-list__text">Корзина</span>
+									</li>
+								</ul>
+							</div>
+							<!-- BREADCRUMBS EOF   -->
+
+							<h1>Корзина <sup class="small-up">(4)</sup></h1>
+
+						
+							<div class="basket-container">
+								<table class="basket-items basket-container__items">
+									<tr>
+										<td class="basket-items__tumb">
+											<div class="tumb">
+												<a href="#"><img src="img/basket-img1.png?ver1.0" alt="" ></a>
+											</div>
+										</td>
+										<td class="basket-items__head">
+											<div class="basket-items__head-wrap">
+												<a href="#" class="basket-items__name">
+													Туалетный стол Como/Veda с зеркалом в столешнице (4 ящика)..
+												</a>
+											</div>
+											<div class="basket-items__additions">
+												<span class="addition">Артикул: 7888-90UR</span>
+											</div>
+											<div class="stickers">
+												<span class="sticker sticker--nice-price">Новинка</span>
+												<span class="sticker sticker--hit">Хит продаж</span>
+												<span class="sticker sticker--double">		
+													<span class="sticker sticker--actions">Акция</span>
+													<span class="sticker sticker--procent">10%</span>
+												</span>	
+											</div>
+										</td>
+										<td class="basket-items__count">
+											<div class="group-number">
+												<button type="button" class="group-number__minus js-minus">&minus;</button>
+												<input type="text" class="group-number__input" value="1">
+												<button type="button" class="group-number__plus js-plus">&plus;</button>
+											</div>
+										</td>
+										<td class="basket-items__price">
+											<div class="basket-items__bl-pos">
+												<div class="basket-items__price-del">
+													78 890 <small>руб.</small>
+												</div>
+												<div class="basket-items__price-ins">
+													5 570 <small>руб.</small>
+												</div>
+												<div class="basket-items__remove"><i class="fas fa-times"></i> удалить</div>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="basket-items__tumb">
+											<div class="tumb">
+												<a href="#"><img src="img/basket-img1.png?ver1.0" alt="" ></a>
+											</div>
+										</td>
+										<td class="basket-items__head">
+											<div class="basket-items__head-wrap">
+												<a href="#" class="basket-items__name">Кровать Just 1 с доставкой по Минску и всей Беларуси</a>
+												
+											</div>
+
+										</td>
+										<td class="basket-items__count">
+											<div class="group-number">
+												<button type="button" class="group-number__minus js-minus">&minus;</button>
+												<input type="text" class="group-number__input" value="1">
+												<button type="button" class="group-number__plus js-plus">&plus;</button>
+											</div>
+										</td>
+										<td class="basket-items__price">
+											<div class="basket-items__bl-pos">
+												<div class="basket-items__price-ins">
+													25 <small>руб.</small>
+												</div>
+												<div class="basket-items__remove"><i class="fas fa-times"></i> удалить</div>
+											</div>
+											
+										</td>
+									</tr>
+									<tr>
+										<td class="basket-items__tumb">
+											<div class="tumb">
+												<a href="#"><img src="img/basket-img2.png?ver1.0" alt="" ></a>
+											</div>
+										</td>
+										<td class="basket-items__head">
+											<div class="basket-items__head-wrap">
+												<a href="#" class="basket-items__name">Велосипедная майка KILPI FLASH-W BLACK</a>
+												
+											</div>
+											<div class="basket-items__additions">
+												<span class="addition">Артикул: 7888-90UR</span>
+												
+												<span class="addition">Серый</span>
+												<span class="addition">XL</span>
+											</div>
+										</td>
+										<td class="basket-items__count">
+											<div class="group-number">
+												<button type="button" class="group-number__minus js-minus">&minus;</button>
+												<input type="text" class="group-number__input" value="1">
+												<button type="button" class="group-number__plus js-plus">&plus;</button>
+											</div>
+										</td>
+										<td class="basket-items__price">
+											<div class="basket-items__bl-pos">
+												<div class="basket-items__price-del">
+													1 789 155 <small>руб.</small>
+												</div>
+												<div class="basket-items__price-ins">
+													956 570 <small>руб.</small>
+												</div>
+												<div class="basket-items__remove"><i class="fas fa-times"></i> удалить</div>
+											</div>
+											
+										</td>
+									</tr>
+									<tr>
+										<td class="basket-items__tumb">
+											<div class="tumb">
+												<a href="#"><img src="img/basket-img3.png?ver1.0" alt="" ></a>
+											</div>
+										</td>
+										<td class="basket-items__head">
+											<div class="basket-items__head-wrap">
+												<a href="#" class="basket-items__name">Ламинированный пол Kronospan Castello Classic Дуб Рейкьявик (4282) </a>
+												
+											</div>
+
+										</td>
+										<td class="basket-items__count">
+											<div class="group-number">
+												<button type="button" class="group-number__minus js-minus">&minus;</button>
+												<input type="text" class="group-number__input" value="1">
+												<button type="button" class="group-number__plus js-plus">&plus;</button>
+											</div>
+										</td>
+										<td class="basket-items__price">
+											<div class="basket-items__bl-pos">
+												<div class="basket-items__price-del">
+													1890, 99 <small>руб.</small>
+												</div>
+												<div class="basket-items__price-ins">
+													6770,<sup>50</sup> <small>руб.</small>
+												</div>
+												<div class="basket-items__remove"><i class="fas fa-times"></i> удалить</div>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="basket-items__tumb">
+											<div class="tumb">
+												<a href="#"><img src="img/basket-img1.png?ver1.0" alt="" ></a>
+											</div>
+										</td>
+										<td class="basket-items__head">
+											<div class="basket-items__head-wrap">
+												<a href="#" class="basket-items__name">
+													Туалетный стол Como/Veda с зеркалом в столешнице (4 ящика)..
+												</a>
+												
+											</div>
+											<div class="basket-items__additions">
+												<span class="addition">Артикул: 7888-90UR</span>
+											</div>
+										</td>
+										<td class="basket-items__count">
+											<div class="group-number">
+												<button type="button" class="group-number__minus js-minus">&minus;</button>
+												<input type="text" class="group-number__input" value="1">
+												<button type="button" class="group-number__plus js-plus">&plus;</button>
+											</div>
+										</td>
+										<td class="basket-items__price">
+											<div class="basket-items__bl-pos">
+												<div class="basket-items__price-del">
+													78 890 <small>руб.</small>
+												</div>
+												<div class="basket-items__price-ins">
+													5 570 <small>руб.</small>
+												</div>
+												<div class="basket-items__remove"><i class="fas fa-times"></i> удалить</div>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="basket-items__tumb">
+											<div class="tumb">
+												<a href="#"><img src="img/basket-img1.png?ver1.0" alt="" ></a>
+											</div>
+										</td>
+										<td class="basket-items__head">
+											<div class="basket-items__head-wrap">
+												<a href="#" class="basket-items__name">
+													Туалетный стол Como/Veda с зеркалом в столешнице (4 ящика)..
+												</a>
+												
+											</div>
+											<div class="basket-items__additions">
+												<span class="addition">Артикул: 7888-90UR</span>
+											</div>
+										</td>
+										<td class="basket-items__count">
+											<div class="group-number">
+												<button type="button" class="group-number__minus js-minus">&minus;</button>
+												<input type="text" class="group-number__input" value="1">
+												<button type="button" class="group-number__plus js-plus">&plus;</button>
+											</div>
+										</td>
+										<td class="basket-items__price">
+											<div class="basket-items__bl-pos">
+												<div class="basket-items__price-del">
+													78 890 <small>руб.</small>
+												</div>
+												<div class="basket-items__price-ins">
+													5 570 <small>руб.</small>
+												</div>
+												<div class="basket-items__remove"><i class="fas fa-times"></i> удалить</div>
+											</div>
+										</td>
+									</tr>
+								</table>
+								<div class="basket-fly__total">
+									<div class="row basket-footer">
+										<div class="col-md-6 basket-footer__item">
+											<div class="form-field form-field--wrap kbu-wrap">
+												<input type="text" placeholder="Купон на скидку" class="form-input">
+												<button type="button" class="btn btn--md btn--success">Применить</button>
+											</div>
+											<div class="form-field form-field--wrap kbu-wrap">
+												<input type="text" placeholder="Подарочный сертификат" class="form-input">
+												<button type="button" class="btn btn--md btn--success">Применить</button>
+											</div>
+											<div class="basket-form-button">
+												<a href="#" class="basket-form-button__item remove-all-basket"><i class="fas fa-times"></i> <span>очистить корзину</span></a>
+												<a href="#" class="basket-form-button__item update-all-basket"><i class="fas fa-sync-alt"></i> <span>пересчитать корзину</span></a>
+											</div>
+										</div>
+										<div class="col-md-5 offset-md-1  basket-footer__item">
+											<ul class="bf-total">
+												<li class="bf-total__item bf-total__item--danger">
+													<span class="bf-total__title ">Скидка:</span>
+													<span class="divider"></span>
+													<span class="bf-total__price">43<small>руб.</small></span>
+												</li>
+												<li class="bf-total__item">
+													<span class="bf-total__title">Итого:</span>
+													<span class="divider"></span>
+													<span class="bf-total__price lg">28 520<small>руб.</small></span>
+												</li>
+											</ul>
+											<div class="bf-button">
+												<a href="#" class="btn btn--md btn--danger">Заказать в 1 клик</a>
+												<a href="#" class="btn btn--md btn--success">Оформить заказ</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<!-- CONTENT EOF   -->
+			</div>
+			<!-- WRAP EOF   -->
+		</div>
+
+	</main>
+	<!-- CONTENT EOF   -->
+
+
+	<!-- BEGIN FOOTER -->
+	<footer class="m-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-5 col-lg-3 m-footer__left">
+					<p class="copyright">&copy; 2015–2019 Moyshop.ru</p>
+					<p>Интернет-магазин по продаже бытовой техники и ноутбуков по всей России.</p>
+					<p class="visible-xs">Все указанные позиции присутствуют на складе, мы являемся прямыми импортерами з/ч для авто из Европы.</p>
+	
+					<div class="foot-contacts">
+						<div class="foot-contacts__item">
+							<a href="tel:8298901890" class="foot-contacts__tel">8 (29) 890-18-90</a>
+						</div>
+						<div class="foot-contacts__item">
+							<a href="tel:8297212840" class="foot-contacts__tel">8 (29) 721-28-40</a>
+						</div>
+						<a href="#" class="foot-contacts__link">Контактная информация</a>
+					</div>
+					<div class="timing">
+						<div class="timing__item">Пн-Пт: с 9.00 до 18.00</div>
+						<div class="timing__item">Сб: с 9.00 до 15.00</div>
+						<div class="timing__item">Вс: выходной</div>
+					</div>
+					
+				</div>
+				<div class="col-lg-3 hidden-md">
+					<div class="m-footer-title">Условия работы</div>
+					<ul class="m-footer-menu">
+						<li class="m-footer-menu__item">
+							<a href="#" class="m-footer-menu__link">О компании</a>
+						</li>
+						<li class="m-footer-menu__item">
+							<a href="#" class="m-footer-menu__link">Доставка и оплата</a>
+						</li>
+						<li class="m-footer-menu__item">
+							<a href="#" class="m-footer-menu__link">Наши гарантии</a>
+						</li>
+						<li class="m-footer-menu__item">
+							<a href="#" class="m-footer-menu__link">Наши бренды</a>
+						</li>
+						<li class="m-footer-menu__item">
+							<a href="#" class="m-footer-menu__link">Сервисные центры</a>
+						</li>
+						<li class="m-footer-menu__item">
+							<a href="#" class="m-footer-menu__link">Приглашаем дилеров</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-3 hidden-md">
+					<div class="m-footer-title">Полезная информация</div>
+					<ul class="m-footer-menu">
+						<li class="m-footer-menu__item">
+							<a href="#" class="m-footer-menu__link">Статьи и новости</a>
+						</li>
+						<li class="m-footer-menu__item">
+							<a href="#" class="m-footer-menu__link">Условия возврата</a>
+						</li>
+						<li class="m-footer-menu__item">
+							<a href="#" class="m-footer-menu__link">Правила оказания услуг</a>
+						</li>
+						<li class="m-footer-menu__item">
+							<a href="#" class="m-footer-menu__link">Политика конфиденциальности</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-6 col-md-5 offset-md-2 col-lg-3 offset-lg-0 m-footer__right hidden-xs">
+					<div class="m-footer-title">Наши преимущества</div>
+					<p>Все указанные позиции присутствуют на складе, мы являемся прямыми импортерами з/ч для авто из Европы.</p>
+					<div class="m-footer-title">Личный кабинет</div>
+					<ul class="m-footer-menu">
+						<li class="m-footer-menu__item">
+							<a href="#" class="m-footer-menu__link">Войти в кабинет</a>
+						</li>
+						<li class="m-footer-menu__item">
+							<a href="#" class="m-footer-menu__link">Мои закладки</a>
+						</li>
+						<li class="m-footer-menu__item">
+							<a href="#" class="m-footer-menu__link">История заказов</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-12">
+					<div class="m-footer__devider"></div>
+					<div class="social">
+						<div class="social-wrap">
+							<a href="#" class="social__link vk"><i class="fab fa-vk"></i></a>
+							<a href="#" class="social__link google"><i class="fab fa-google"></i></a>
+							<a href="#" class="social__link instagram"><i class="fab fa-instagram"></i></a>
+							<a href="#" class="social__link odnokl"><i class="fab fa-odnoklassniki"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="m-footer__bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 ">
+						<p class="ft-gray visible-md">ООО "БелМоторс Прайм", УНП 193054359 <br>
+						Свидетельство № 193054359 от 22.02.2010 выдано Мингорисполкомом <br>
+						Юр. адрес: 220002, Республика Беларусь, г. Минск, ул. Я.Чечота, 7 Зарегистрирован с 28.05.2018 г. в Торговом реестре РБ</p>
+						<p class="ft-gray">Все данные, представленные на сайте, носят информационный характер и не являются исчерпывающими. Указанные цены являются рекомендованными и могут отличаться от действительных цен. Обратитесь к менеджерам компании по указанным на сайте контактам. </p>
+	
+						<p class="ft-gray">Мы полагаем, что пользуясь данным веб-сайтом, вы даёте своё согласие на получение <a href="#">cookies</a> для данного сайта. </p>
+	
+						<ul class="m-card-list">
+							<li class="m-card-list__item">
+								<a href="#" class="m-card-list__link">
+									<img src="img/mastercard.png?ver1.0" alt="" class="static">
+									<img src="img/mastercard-hover.png?ver1.0" alt="" class="hover">
+								</a>
+							</li>
+							<li class="m-card-list__item">
+								<a href="#" class="m-card-list__link">
+									<img src="img/mastercard-sc.png?ver1.0" alt="" class="static">
+									<img src="img/mastercard-sc-hover.png?ver1.0" alt="" class="hover">
+								</a>
+							</li>
+							<li class="m-card-list__item">
+								<a href="#" class="m-card-list__link">
+									<img src="img/visa.png?ver1.0" alt="" class="static">
+									<img src="img/visa-hover.png?ver1.0" alt="" class="hover">
+								</a>
+							</li>
+							<li class="m-card-list__item">
+								<a href="#" class="m-card-list__link">
+									<img src="img/verified.png?ver1.0" alt="" class="static">
+									<img src="img/verified-hover.png?ver1.0" alt="" class="hover">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-5 offset-lg-2  txr-md">
+						<p class="ft-gray hidden-md">ООО "БелМоторс Прайм", УНП 193054359 <br>
+						Свидетельство № 193054359 от 22.02.2010 выдано Мингорисполкомом <br>
+						Юр. адрес: 220002, Республика Беларусь, г. Минск, ул. Я.Чечота, 7 Зарегистрирован с 28.05.2018 г. в Торговом реестре РБ</p>
+						<ul class="m-counters hidden-md">
+							<li class="m-counters__item">
+								<a href="#" class="m-counters__link">
+									<img src="img/firewall.png?ver1.0" alt="" class="static">
+								</a>
+							</li>
+							<li class="m-counters__item">
+								<a href="#" class="m-counters__link">
+									<img src="img/rait.png?ver1.0" alt="" class="static">
+								</a>
+							</li>
+							<li class="m-counters__item">
+								<a href="#" class="m-counters__link">
+									<img src="img/rait2.png?ver1.0" alt="" class="static">
+								</a>
+							</li>
+						</ul>
+						<p class="top">
+							<span class="top__icon"><i class="fas fa-cog"></i></span> Продвижение в ТОП — <a href="#">MTP</a>
+						</p>
+					</div>
+	
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<div class="basket-fly ">
+		<div class="basket-fly__header">
+			<div class="woocommerce__item">
+				<div class="woocommerce__icon">
+					<i class="icon icon-shopping-basket"></i>
+					<sup class="kbd ">5</sup>
+				</div>
+				<div class="woocommerce__content hidden-md">
+					<span class="woocommerce__first-bl">Товаров &#8212; 5</span>
+					<span class="woocommerce__last-bl">25 890 руб.</span>
+				</div>
+			</div>
+			<div class="basket-fly__add-message">Добавлено в корзину</div>
+		</div>
+		<div class="basket-fly__body">
+			<div class="basket-scroll">
+				<table class="basket-items">
+					<tr>
+						<td class="basket-items__tumb">
+							<div class="tumb">
+								<a href="#"><img src="img/basket-img1.png?ver1.0" alt="" ></a>
+							</div>
+						</td>
+						<td class="basket-items__head">
+							<div class="basket-items__head-wrap">
+								<a href="#" class="basket-items__name">
+									Туалетный стол Como/Veda с зеркалом в столешнице (4 ящика)..
+								</a>
+								<span class="addition">1 шт.</span>
+							</div>
+							<div class="basket-items__additions">
+								<span class="addition">Серый</span>
+								<span class="addition">XL</span>
+							</div>
+						</td>
+						<td class="basket-items__price">
+							<div class="basket-items__bl-pos">
+								<div class="basket-items__price-del">
+									78 890 <small>руб.</small>
+								</div>
+								<div class="basket-items__price-ins">
+									5 570 <small>руб.</small>
+								</div>
+								<div class="basket-items__remove"><i class="fas fa-times"></i> удалить</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="basket-items__tumb">
+							<div class="tumb">
+								<a href="#"><img src="img/basket-img1.png?ver1.0" alt="" ></a>
+							</div>
+						</td>
+						<td class="basket-items__head">
+							<div class="basket-items__head-wrap">
+								<a href="#" class="basket-items__name">Кровать Just 1 с доставкой по Минску и всей Беларуси</a>
+								<span class="addition">6 шт.</span>
+							</div>
+	
+						</td>
+						<td class="basket-items__price">
+							<div class="basket-items__bl-pos">
+								<div class="basket-items__price-ins">
+									25 <small>руб.</small>
+								</div>
+								<div class="basket-items__remove"><i class="fas fa-times"></i> удалить</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="basket-items__tumb">
+							<div class="tumb">
+								<a href="#"><img src="img/basket-img2.png?ver1.0" alt="" ></a>
+							</div>
+						</td>
+						<td class="basket-items__head">
+							<div class="basket-items__head-wrap">
+								<a href="#" class="basket-items__name">Велосипедная майка KILPI FLASH-W BLACK</a>
+								<span class="addition">1 шт.</span>
+							</div>
+							<div class="basket-items__additions">
+								<span class="addition">Серый</span>
+								<span class="addition">XL</span>
+							</div>
+						</td>
+						<td class="basket-items__price">
+							<div class="basket-items__bl-pos">
+								<div class="basket-items__price-del">
+									1 789 155 <small>руб.</small>
+								</div>
+								<div class="basket-items__price-ins">
+									956 570 <small>руб.</small>
+								</div>
+								<div class="basket-items__remove"><i class="fas fa-times"></i> удалить</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="basket-items__tumb">
+							<div class="tumb">
+								<a href="#"><img src="img/basket-img3.png?ver1.0" alt="" ></a>
+							</div>
+						</td>
+						<td class="basket-items__head">
+							<div class="basket-items__head-wrap">
+								<a href="#" class="basket-items__name">Ламинированный пол Kronospan Castello Classic Дуб Рейкьявик (4282) </a>
+								<span class="addition">10 шт.</span>
+							</div>
+	
+						</td>
+						<td class="basket-items__price">
+							<div class="basket-items__bl-pos">
+								<div class="basket-items__price-del">
+									1890, 99 <small>руб.</small>
+								</div>
+								<div class="basket-items__price-ins">
+									6770,<sup>50</sup> <small>руб.</small>
+								</div>
+								<div class="basket-items__remove"><i class="fas fa-times"></i> удалить</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="basket-items__tumb">
+							<div class="tumb">
+								<a href="#"><img src="img/basket-img1.png?ver1.0" alt="" ></a>
+							</div>
+						</td>
+						<td class="basket-items__head">
+							<div class="basket-items__head-wrap">
+								<a href="#" class="basket-items__name">
+									Туалетный стол Como/Veda с зеркалом в столешнице (4 ящика)..
+								</a>
+								<span class="addition">1 шт.</span>
+							</div>
+							<div class="basket-items__additions">
+								<span class="addition">Серый</span>
+								<span class="addition">XL</span>
+							</div>
+						</td>
+						<td class="basket-items__price">
+							<div class="basket-items__bl-pos">
+								<div class="basket-items__price-del">
+									78 890 <small>руб.</small>
+								</div>
+								<div class="basket-items__price-ins">
+									5 570 <small>руб.</small>
+								</div>
+								<div class="basket-items__remove"><i class="fas fa-times"></i> удалить</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="basket-items__tumb">
+							<div class="tumb">
+								<a href="#"><img src="img/basket-img1.png?ver1.0" alt="" ></a>
+							</div>
+						</td>
+						<td class="basket-items__head">
+							<div class="basket-items__head-wrap">
+								<a href="#" class="basket-items__name">
+									Туалетный стол Como/Veda с зеркалом в столешнице (4 ящика)..
+								</a>
+								<span class="addition">1 шт.</span>
+							</div>
+							<div class="basket-items__additions">
+								<span class="addition">Серый</span>
+								<span class="addition">XL</span>
+							</div>
+						</td>
+						<td class="basket-items__price">
+							<div class="basket-items__bl-pos">
+								<div class="basket-items__price-del">
+									78 890 <small>руб.</small>
+								</div>
+								<div class="basket-items__price-ins">
+									5 570 <small>руб.</small>
+								</div>
+								<div class="basket-items__remove"><i class="fas fa-times"></i> удалить</div>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="basket-fly__total">
+				<ul class="bf-total">
+					<li class="bf-total__item bf-total__item--danger">
+						<span class="bf-total__title ">Скидка:</span>
+						<span class="divider"></span>
+						<span class="bf-total__price">43<small>руб.</small></span>
+					</li>
+					<li class="bf-total__item">
+						<span class="bf-total__title">Итого:</span>
+						<span class="divider"></span>
+						<span class="bf-total__price lg">28 520<small>руб.</small></span>
+					</li>
+				</ul>
+				<div class="bf-button">
+					<a href="#" class="btn btn--md btn--danger">Просмотр корзины</a>
+					<a href="#" class="btn btn--md btn--success">Оформить заказ</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="popup">
+		<div class="window-open" id="win_question">
+			<div class="window">
+				<div class="window__head">
+					<div class="window__title">Задать вопрос</div>
+				</div>
+				<div class="window__body">
+					<form action="#">
+						<div class="form-field">
+							<label>Введите имя</label>
+							<input type="text" class="form-input form-input--default form-input--md" >
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-field">
+									<label>Введите емейл <span class="req-star">*</span></label>
+									<input type="email" class="form-input form-input--default form-input--md" >
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-field">
+									<label>Введите телефон <span class="req-star">*</span></label>
+									<input type="text" class="form-input form-input--default form-input--md" >
+								</div>
+							</div>
+						</div>
+						<div class="form-field">
+							<label>Ваше сообщение — </label>
+							<textarea  class="form-input form-input--default" ></textarea>
+						</div>
+						<div class="form-field">
+							<div class="captcha justify-content-center">
+								<img src="img/captcha.png?ver1.0" alt="">
+							</div>
+						</div>
+						<div class="form-field text-center">
+							<label class="checkbox checkbox--default">
+								<input type="checkbox" checked="">
+								<span class="checkbox__text">Я согласен с <a href="#">Политикой конфиденциальности</a> данного сайта</span>
+							</label>
+						</div>
+						<div class="button"><input type="submit" value="Отправить" class="btn btn--md btn--success"></div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<!-- FOOTER EOF   -->
+
+</div>
+<!-- BODY EOF   -->
+
+<div class="icon-load">
+	<div class="ball a"></div>
+	<div class="ball b"></div>
+	<div class="ball c"></div>
+</div>
+<div class="overlay"></div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery.ui.touch-punch.js"></script>
+<script src="js/slinky.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/jquery.fancybox-thumbs.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
